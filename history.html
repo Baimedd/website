@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server History</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: url('https://wallpapercave.com/wp/wp10202850.jpg') center/cover no-repeat;
+            color: white;
+        }
+
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+            border-radius: 10px;
+            width: 80%;
+            max-width: 800px;
+            box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #00ff00;
+            text-shadow: 0 0 10px #00ff00;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .back-btn {
+            padding: 10px 20px;
+            background: #00ff00;
+            color: #0f172a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background: #00cc00;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Past Server History</h1>
+        <p>I have experience managing and developing Minecraft servers, creating custom plugins, optimizing performance, and handling player communities.</p>
+        <button class="back-btn" onclick="history.back()">← Back to Portfolio</button>
+    </div>
+</body>
+</html>
